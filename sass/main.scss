@@ -1,0 +1,11 @@
+// Start with imports (order is important)
+@import "./modules/_reset.scss";
+// import mobile styles first
+@import "./modules/_mobile.scss";
+@import "./modules/_queries.scss";
+// component files next
+@import "./modules/_header.scss";
+// atomic files go here
+@import "./modules/_body.scss";
+// import for button 
+@import "./modules/_button.scss";
