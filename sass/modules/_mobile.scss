@@ -1,38 +1,73 @@
-@media (max-width: 1425px) {
-    header {
-        padding: 16px 3%;
-        transition: 0.5s;
+@media (max-width: 970px) {
+    #home {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25rem;
+        justify-content: space-around;
     }
-    header.sticky {
-        padding: 10px 3%;
-        transition: 0.3s;
+    .home-text {
+        text-align: center;
+    }
+    html,
+    body {
+        margin: 10px;
+        overflow-x: hidden;
+    }
+    body {
+        position: relative;
     }
     section {
-        padding: 70px 3%;
-        transition: 0.3s;
+        // padding: 10px 10%;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-gap: 20rem;
+        overflow: hidden;
+        // margin-top: 5px;
+        // justify-content: space-between;
+        background-color: rgb(186, 78, 78);
     }
-    .contact {
-        width: 95%;
-        transition: 0.5s;
+    header {
+        flex-direction: row !important;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        justify-content: space-around;
+        padding: 0px !important;
     }
-     :root {
-        --big-font: 4rem;
-        --h2-font: 2.3rem;
-        --p-font: 1rem;
-        transition: 0.5s;
-        --bg-color: #ffffffff;
-        --text-color: #000;
-        --second-color: #a09dab;
-        --main-color: #f75023;
+    .view_button {
+        // margin-left: 20px;
+        font-size: 15px !important;
+        height: 100%;
+        // padding: 10px 14% !important;
     }
-}
-
-@media (max-width: 970px) {
+    .logo {
+        padding: 0px;
+        width: 14% !important;
+        height: 50%!important;
+    }
+    .home-img {
+        width: 400px;
+        height: 10px;
+        margin-bottom: 10px;
+    }
+    .navlist a {
+        display: block;
+        padding: 1.2rem;
+        margin: 1.5rem;
+        border-right: 2px solid var(--bg-color);
+        color: var(--bg-color);
+    }
     #menu-icons {
+        font-size: 40px;
         display: block;
     }
-    .home {
-        min-height: 80vh;
+    .bx-menu {
+        font-family: boxicons !important;
+        font-weight: 400;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        text-transform: none;
+        margin-left: 17px;
     }
     .navlist {
         position: absolute;
@@ -45,7 +80,8 @@
         transition: all 0.40s;
     }
     .navlist a {
-        display: block;
+        display: flex;
+        flex-direction: column;
         padding: 1.2rem;
         margin: 1.5rem;
         border-right: 2px solid var(--bg-color);
@@ -61,43 +97,51 @@
     .navlist.active {
         top: 100%;
     }
-}
-
-@media (max-width: 800px) {
-    .home {
-        grid-template-columns: 1fr;
-        min-height: 130vh;
-        gap: 1rem;
+    .btn {
+        margin-bottom: 20px;
     }
-    .home-text {
-        padding-top: 55px;
+    .sub-service {
+        margin: 0px !important;
+        grid-gap: 0px;
     }
-    .home-img {
-        text-align: center;
+    .items {
+        grid-gap: 3em !important;
     }
-    .home-img img {
-        width: 400px;
-        height: auto;
-    }
-    .about {
-        grid-template-columns: 1rem;
-    }
-    .about-img {
-        text-align: center;
-        margin-bottom: 30px;
-    }
-     :root {
-        --big-font: 3.4rem;
-        --h2--font: 2rem;
-    }
-    section {
-        padding: 65px 3%;
-        transition: 0.3s;
+    .sub-box {
+        padding: 0px !important;
+        margin-bottom: 10px;
     }
 }
 
-@media (max-width: 540px) {
-    .contact .action form input[type="email"] {
-        width: 310px;
-    }
-}
+// @media (max-width: 800px) {
+//     #menu-icons {
+//         display: flex;
+//         flex: auto;
+//     }
+//     .bx-menu {
+//         display: block;
+//     }
+//     .home-text {
+//         padding-top: 55px;
+//     }
+//     .about {
+//         grid-template-columns: 1rem;
+//     }
+//     .about-img {
+//         text-align: center;
+//         margin-bottom: 30px;
+//     }
+//      :root {
+//         --big-font: 3.4rem;
+//         --h2--font: 2rem;
+//     }
+//     section {
+//         padding: 65px 3%;
+//         transition: 0.3s;
+//     }
+// }
+// @media (max-width: 540px) {
+//     .contact .action form input[type="email"] {
+//         width: 310px;
+//     }
+// }
