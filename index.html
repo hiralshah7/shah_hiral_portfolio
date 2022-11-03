@@ -20,7 +20,7 @@
     <title>Hiral's Portfolio</title>
 </head>
 
-<body>
+<body class="mainbody">
     <!--header-->
     <header>
         <a href="#" class="logo"><img src="image/logo.svg" alt="logo"></a>
@@ -52,6 +52,7 @@
                 </a>
                 <a class="icon" href="https://www.behance.net/hiralshah18">
                     <ion-icon name="logo-behance"></ion-icon>
+                </a>
             </div>
             <a href="#about" class="btn">About Me</a>
         </div>
@@ -159,50 +160,57 @@
             <div class="col">
             </div>
         </div>
-        <!-- portfolio ends here-->
-        <!-- bringing data using sql-->
+    </section>
+    <!-- portfolio ends here-->
+    <!-- bringing data using sql-->
 
-        <section class="cta">
-            <div class="heading">
-                <h2>Hands on Experience<br>& Learning</h2>
-            </div>
-            <div class="cta-box">
-                <div class="wrap one">
-                    <h3>Working with 3D Animation</h3>
-                </div>
-                <div class="wrap two">
-                    <h3>Working with 3D Animation</h3>
-                </div>
-                <div class="wrap three">
-                    <h3>Working with 3D Animation</h3>
-                </div>
-        </section>
-        <section class="contact" id="contact">
-            <div class="container">
-                <div class="center">
-                    <h3>Let's talk about everything</h3>
-                    <p>Don't like forms? Send me an email.</p>
-                </div>
+    <section class="cta">
+        <h6 class="sectionh">Section</h6>
+        <div class="heading">
 
-                <div class="action">
-                    <form>
-                        <input type="email" name="email" placeholder="Enter Your email" required>
-                        <input type="submit" name="submit" value="Submit">
-                    </form>
-                </div>
-            </div>
-        </section>
-        <!-- end of the html body-->
-        <!-- footer-->
-        <div class="ends">
-            <p>Made with Love by Hiral Shah </p>
+            <h2>Hands on Experience<br>& Learning</h2>
         </div>
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-        <srcipt src="https://unpkg.com/scrollreveal"></srcipt>
+        <div class="cta-box">
+            <div class="wrap one">
+                <h3>Working with 3D Animation</h3>
+            </div>
+            <div class="wrap two">
+                <h3>Working with 3D Animation</h3>
+            </div>
+            <div class="wrap three">
+                <h3>Working with 3D Animation</h3>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="center">
+                <h3>Let's talk about everything</h3>
+                <p>Don't like forms? Send me an email.</p>
+            </div>
 
-        <!-- link to js-->
-        <script-type="text/javascript" src="script.js"> </script>
+            <div class="action">
+                <form action="actionpage.php">
+                    <!-- <label for="fname">First Name</label> -->
+                    <input type="text" id="fname" name="firstname" placeholder="Your name">
+                    <input type="email" name="email" placeholder="Enter Your email" required>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea><br>
+                    <input type="submit" name="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- end of the html body-->
+    <!-- footer-->
+    <div class="ends">
+        <p>Made with Love by Hiral Shah </p>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- link to js-->
+    <script src="js/main.js">
+    </script>
 </body>
 
 </html>

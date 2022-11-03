@@ -1,4 +1,6 @@
     * {
+        // display: flex;
+        // flex-direction: column;
         padding: 0;
         margin: 0;
         box-sizing: border-box;
@@ -17,13 +19,17 @@
         --p-font: 1.1rem;
     }
     
+    .sectionh {
+        display: none;
+    }
+    
     body {
         background: var(--bg-color);
         color: var(--text-color);
     }
     
     header {
-        position: fixed;
+        // position: fixed;
         width: 100%;
         top: 0;
         right: 0;
@@ -31,8 +37,8 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background: white;
-        padding: 30px 18%;
+        background: rgb(255, 255, 255);
+        padding: 10px 18%;
         transition: .4s;
     }
     
@@ -106,13 +112,16 @@
     //     height: 200px;
     // }
     section {
-        padding: 10px 18%;
+        padding: 0px 18%;
+        display: grid;
         overflow: hidden;
-        margin-top: 25px;
+        // margin-top: 5px;
+        // justify-content: space-between;
+        background-color: rgb(255, 255, 255);
     }
     
     .home {
-        min-height: 100vh;
+        min-height: 70vh;
         height: 100%;
         width: 100%;
         background-size: cover;
@@ -401,15 +410,16 @@
         background: #8067f0eb;
         width: 780px;
         margin: 100px auto;
-        padding: 70px 150px;
+        padding: 170px 150px;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
         border-radius: 12px;
         background-image: url(p2.png);
-        height: 236px;
-        background-size: cover;
+        height: 436px;
+        background-size: contain;
     }
     
     .center h3 {
@@ -424,6 +434,19 @@
         color: var(--bg-color);
         line-height: 26px;
         margin-bottom: 25px;
+    }
+    
+    .contact .action form input[type="text"],
+    #subject {
+        max-width: 100%;
+        width: 470px;
+        padding: 12px 15px;
+        background: var(--bg-color);
+        color: var(--text-color);
+        border: none;
+        outline: none;
+        margin: 0 10px 20px 0;
+        border-radius: 30px;
     }
     
     .contact .action form input[type="email"] {
