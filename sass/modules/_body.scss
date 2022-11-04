@@ -308,7 +308,7 @@
             }
             
             .about-text p {
-                max-width: 550px;
+                max-width: 100%;
                 font-size: var(--p-font);
                 color: var(--second-color);
                 line-height: 28px;
@@ -351,10 +351,15 @@
                 background: #ffffffff;
                 box-shadow: 18px 0px 90px 0px rgb(10 15 70/7%);
                 border-radius: 15px;
-                padding: 10px 10px 10px 10px;
+                padding: 20px 20px 20px 20px;
                 // padding: 45px 45px 45px 45px;
                 transition: ease .35s;
                 cursor: pointer;
+            }
+            
+            .inspiration {
+                width: 20% !important;
+                padding-bottom: 20px;
             }
             
             .row h3 {
