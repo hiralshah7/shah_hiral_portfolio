@@ -4,33 +4,26 @@ export default {
     props: ['hero'],
 
     template: `
-    <section class="lightbox">
-    <article>
-    <h2 class="lb_heading">{{ hero.name }}</h2>
-    <h2 class="feature">What You will Get?</h2>
-   
-        
-          
-        <div class="container">
-            <div class="object1">
-                <h2 class="feature_name">{{ hero.feature_name1 }}</h2>
-                    <p class="featureinfo1">{{ hero.feature1}}</p>   
-            </div>
-
-            <div class="object2">    
-            <h2 class="feature_name2">{{ hero.feature_name2 }}</h2>
-                <p class="featureinfo2">{{ hero.feature2}}</p>
-            </div>
-           
+    <div class="lightbox">
+    <div class="content">
+    <div class="closeicon">
+    <ion-icon @click="closeLB" name="close-circle-sharp"></ion-icon>
+</div>
+        <h2 class="name">{{ hero.name }}</h2>
+        <div class="content">
+            <h3 class="tech">Technology Used:</h3>
+            <p>{{ hero.technology_used }}<p>
+            <h3 class="description1">Description</h3>
+            <p class="desc">{{ hero.Description}}</p>
         </div>
-        <img class="lightboximg" :src='"images/" + hero.image2' :alt="'prof.name'">
-    </article>
-</section>
-    `
-        // methods: {
-        //     closeLB() {
-        //         // debugger;
-        //         this.$emit('closelb');
-        //     }
-        // }
+    </div>
+</div>
+    </div>
+  `,
+    methods: {
+        closeLB() {
+            // debugger;
+            this.$emit('closelb');
+        }
+    }
 }

@@ -1,7 +1,7 @@
 {
     "portfolio1": {
         "name": "Brand Building",
-        "Technology Used": "Adobe Xd, HTML5, CSS, Js, Adobe Illustrator",
+        "technology_used": "Adobe Xd, HTML5, CSS, Js, Adobe Illustrator",
         "Role": "Designer",
         "Description": "The goal of this assignment is to create a comprehensive brand identity for a new product with the given group and the brand overall design and theme should be visually appealing to the user end side.",
         "images": "p1.svg"
@@ -9,24 +9,24 @@
 
     "portfolio2": {
         "name": "Music Mixer",
-        "Technology Used": "Adobe Xd, HTML5, CSS, Js, Photoshop",
+        "technology_used": "Adobe Xd, HTML5, CSS, Js, Photoshop",
         "Role": "Designer",
         "Description": "We were asked to make a game where you could take different sounds and put them together to make a song.The goal of this assignment was to create a interface in which user can mix two or more music and get a diffrent sound out of it, Using Java Script the audio mixer functions were created to execute the mix sound.",
-        "images": "p2.svg"
+        "images": "p1.svg"
     },
     "portfolio3": {
         "name": "Sports Intro",
-        "Technology Used": "Cinema 4D, AfterEffects",
+        "technology_used": "Cinema 4D, AfterEffects",
         "Role": "Designer",
         "Description": "We were asked to create a video intro that could be used for a sports network. All the modelling, texturing, and animation was done using Cinema 4d.",
-        "images": "p3.svg"
+        "images": "p1.svg"
     },
 
     "portfolio4": {
-        "name": "Branding For an Imaginery Startup",
-        "Technology Used": "",
-        "Role": "",
+        "name": "Branding For Startup",
+        "technology_used": "HTML5, CSS, Js",
+        "Role": "Developer",
         "Description": "In this project We were asked to Create Branding of a startup from scratch, So We were in team of four, In that I was doing overall Development of the site and rest of the branding like wireframe, infographic videos was done by our group members.",
-        "images": "p4.jpg"
+        "images": "p1.svg"
     }
 }

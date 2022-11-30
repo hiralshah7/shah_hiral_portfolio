@@ -145,7 +145,7 @@
         <div class="heading">
             <h3>Portfolio</h3>
             <h2>My Amazing Work</h2>
-            <p>Most Common Methods for designing websites that work well on desktop is responsive and adaptvie design</p>
+            <p>Click On Any of the Portfolio Piece and Get Detail Info About it.</p>
         </div>
         <div class="portfolio-content">
             <div class="col">
@@ -159,55 +159,27 @@
         <article class="main">
             <nav id="car-nav">
                 <!-- adding component binding here -->
-                <ul class="cars">
-                    <herothumbnail @loadlb="loadLightBox" v-for="hero in heroData" :hero="hero"></herothumbnail>
+                <ul class="projects">
+                    <herothumbnail @loadlb="loadLightBox" v-for="hero in heroData" :hero="hero">
+                    </herothumbnail>
                 </ul>
+                <div class="projects2">
+                    <!-- light box component goes below-->
+                    <Lightbox @closelb="this.showLightBox = false" v-if="showLightBox" :hero=" LightboxData">
+                    </Lightbox>
+                </div>
             </nav>
         </article>
-        <article class="lightboxSec">
-            <!-- light box component goes below-->
-            <Lightbox @closelb="this.showLightBox = false" v-if="showLightBox" :hero=" LightboxData">
-            </Lightbox>
-        </article>
-        <!-- end here-->
     </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- bringing data using sql-->
-
+    <!-- end here-->
     <!-- extra portfolio piece  -->
     <section class="contact" id="contact">
         <div class="container">
             <div class="center">
                 <h3>Let's talk about everything</h3>
-                <p>Don't like forms? Send me an email.</p>
             </div>
             <div class="action">
-                <form action="actionpage.php">
+                <form action="action.php">
                     <!-- <label for="fname">First Name</label> -->
                     <input type="text" id="fname" name="firstname" placeholder="Your name">
                     <input type="email" name="email" placeholder="Enter Your email" required>
@@ -226,6 +198,8 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="js/main.js" type="module"></script>
 
+    <!-- ion iocns-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
