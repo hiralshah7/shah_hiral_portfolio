@@ -395,7 +395,7 @@
             }
             
             .contact {
-                background: #8067f0eb;
+                background: var(--text-color);
                 width: 780px;
                 margin: 100px auto;
                 padding: 170px 150px;
@@ -592,5 +592,10 @@
                 font-size: 40px;
             }
             
-            // portfolio
-            // OVER TILL CONTACT PAGE
+            // ends portfolio
+            // footer
+            .ends {
+                background-color: var(--main-color);
+                color: var(--bg-color);
+                text-transform: uppercase;
+            }
