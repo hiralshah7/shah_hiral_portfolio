@@ -13,15 +13,22 @@
 <body>
     <div class="lightbox">
         <div class="content">
-            <h2>{{ hero.name }}</h2>
+            <div class="closeicon">
+                <ion-icon @click="closeLB" name="close-circle-sharp"></ion-icon>
+            </div>
+            <h2 class="name">{{ hero.name }}</h2>
             <div class="content">
                 <h3 class="tech">Technology Used:</h3>
-                <h3>{{ hero.technology_used }}</h3>
-                <h4 class="description1">Description</h4>
-                <h4 class="desc">{{ hero.Description}}</h4>
+                <p>{{ hero.technology_used }}</p>
+                <h3 class="description1">Description</h3>
+                <p class="desc">{{ hero.Description}}</p>
             </div>
         </div>
     </div>
+</body>
+</div>
+</div>
+</div>
 </body>
 </div>
 </div>
