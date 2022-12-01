@@ -160,12 +160,12 @@
             <nav id="car-nav">
                 <!-- adding component binding here -->
                 <ul class="projects">
-                    <herothumbnail @loadlb="loadLightBox" v-for="hero in heroData" :hero="hero">
-                    </herothumbnail>
+                    <portfoliothumbnail @loadlb="loadLightBox" v-for="portfolio in portfolioData" :portfolio="portfolio">
+                    </portfoliothumbnail>
                 </ul>
                 <div class="projects2">
                     <!-- light box component goes below-->
-                    <Lightbox @closelb="this.showLightBox = false" v-if="showLightBox" :hero=" LightboxData">
+                    <Lightbox @closelb="this.showLightBox = false" v-if="showLightBox" :portfolio=" LightboxData">
                     </Lightbox>
                 </div>
             </nav>

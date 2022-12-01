@@ -1,10 +1,10 @@
 export default {
-    name: 'thecarcomponents',
+    name: 'theprojectcomponents',
 
     emits: ['loadlb'],
 
     props: {
-        hero: Object
+        portfolio: Object
     },
 
     template: `
@@ -12,9 +12,9 @@ export default {
     <li @click="loadLightboxData">
         <div class="portfolio-content">
             <div class="col">
-                <img class="carbody" :src='"image/" + hero.images' alt="hero image">
+                <img class="carbody" :src='"image/" + portfolio.images' alt="portfolio image">
                 <div class="layer">
-                    <h5>{{ hero.name}}</h5>
+                    <h5>{{ portfolio.name}}</h5>
                 </div>
             </div>
         </div>
@@ -24,7 +24,7 @@ export default {
 `,
     methods: {
         loadLightboxData() {
-            this.$emit('loadlb', this.hero);
+            this.$emit('loadlb', this.portfolio);
         }
     }
 

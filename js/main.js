@@ -1,5 +1,5 @@
 // importing my component
-import thecarcomponents from './components/thecarcomponent.js';
+import theprojectcomponents from './components/theprojectcomponents.js';
 import LightBox from './components/Thelightboxcomponent.js';
 
 (() => {
@@ -42,13 +42,13 @@ import LightBox from './components/Thelightboxcomponent.js';
             // debugger;
             fetch('./scripts/json.php')
                 .then(res => res.json())
-                .then(data => this.heroData = data)
+                .then(data => this.portfolioData = data)
                 .catch(error => console.error(error));
         },
 
         data() {
             return {
-                heroData: {},
+                portfolioData: {},
                 LightboxData: {},
                 // we can use the key we want to 
                 showLightBox: false
@@ -62,7 +62,7 @@ import LightBox from './components/Thelightboxcomponent.js';
         },
 
         components: {
-            herothumbnail: thecarcomponents,
+            portfoliothumbnail: theprojectcomponents,
             Lightbox: LightBox
                 // Lightbox: LightBox
         }
