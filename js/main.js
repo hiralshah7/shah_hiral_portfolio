@@ -40,7 +40,7 @@ import LightBox from './components/Thelightboxcomponent.js';
     createApp({
         created() {
             // debugger;
-            fetch('./data.json')
+            fetch('./scripts/json.php')
                 .then(res => res.json())
                 .then(data => this.heroData = data)
                 .catch(error => console.error(error));
