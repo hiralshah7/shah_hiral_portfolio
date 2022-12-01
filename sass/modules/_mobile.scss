@@ -80,7 +80,7 @@
                 flex-direction: column;
                 background: #f75023;
                 text-align: right;
-                transition: .20s !important;
+                transition: all 2.4s !important;
                 width: 100%;
             }
             .navlist a {
@@ -143,6 +143,9 @@
                 font-size: 21px !important;
             }
             // portfolio
+            .col img {
+                width: 100% !important;
+            }
             .projects {
                 display: flex !important;
                 flex-direction: column;

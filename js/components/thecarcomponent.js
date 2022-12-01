@@ -12,7 +12,7 @@ export default {
     <li @click="loadLightboxData">
         <div class="portfolio-content">
             <div class="col">
-                <img class="carbody" :src='"image/" + hero.images' alt="hero image" width="350">
+                <img class="carbody" :src='"image/" + hero.images' alt="hero image">
                 <div class="layer">
                     <h5>{{ hero.name}}</h5>
                 </div>
