@@ -17,6 +17,8 @@ export default {
             <p>{{ portfolio.technology_used }}</p>
             <h3 class="description1">Description</h3>
             <p class="desc">{{ portfolio.Description}}</p>
+            <!-- how to add below href-->
+            <a :href="'portfolio.live_link'">Click Here</a>
         </div>
     </div>
 </div>

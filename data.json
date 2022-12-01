@@ -5,7 +5,7 @@
         "Role": "Designer",
         "Description": "The goal of this assignment is to create a comprehensive brand identity for a new product with the given group and the brand overall design and theme should be visually appealing to the user end side.",
         "images": "brand_building.png",
-        "live_link": ""
+        "live_link": "https://github.com/Doyeon-k-fanshawe/Interactive_Music_Mixer"
     },
 
     "portfolio2": {
@@ -14,7 +14,7 @@
         "Role": "Designer",
         "Description": "We were asked to make a game where you could take different sounds and put them together to make a song.The goal of this assignment was to create a interface in which user can mix two or more music and get a diffrent sound out of it, Using Java Script the audio mixer functions were created to execute the mix sound.",
         "images": "music_mixer.png",
-        "live_link": ""
+        "live_link": "https://github.com/Doyeon-k-fanshawe/Interactive_Music_Mixer"
     },
     "portfolio3": {
         "name": "Sports Intro",
@@ -22,7 +22,7 @@
         "Role": "Designer",
         "Description": "We were asked to create a video intro that could be used for a sports network. All the modelling, texturing, and animation was done using Cinema 4d.",
         "images": "sports_intro.png",
-        "live_link": ""
+        "live_link": "https://github.com/Doyeon-k-fanshawe/Interactive_Music_Mixer"
     },
 
     "portfolio4": {
@@ -31,6 +31,6 @@
         "Role": "Developer",
         "Description": "In this project We were asked to Create Branding of a startup from scratch, So We were in team of four, In that I was doing overall Development of the site and rest of the branding like wireframe, infographic videos was done by our group members.",
         "images": "startup_branding.png",
-        "live_link": ""
+        "live_link": "https://github.com/Doyeon-k-fanshawe/Interactive_Music_Mixer"
     }
 }

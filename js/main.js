@@ -24,6 +24,8 @@ import LightBox from './components/Thelightboxcomponent.js';
         navlist.classList.remove('active');
     };
 
+    // animation through js library
+
     const sr = ScrollReveal({
         distance: '45px',
         duration: 2400,
@@ -34,13 +36,16 @@ import LightBox from './components/Thelightboxcomponent.js';
     sr.reveal('.home-img', { delay: 350, origin: 'right' })
 
     sr.reveal('.sub-service,.about,.main,.cta', { delay: 100, origin: 'bottom' })
-        // creating the vue app
+
+    // creating the vue app
     const { createApp } = Vue
+
+    // /scripts/json.php
 
     createApp({
         created() {
             // debugger;
-            fetch('./scripts/json.php')
+            fetch('./data.json')
                 .then(res => res.json())
                 .then(data => this.portfolioData = data)
                 .catch(error => console.error(error));

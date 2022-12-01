@@ -11,25 +11,7 @@
 
     //Return all results
     $getContent = getAll('db_portfolio');
-
-    //Return Single Result
-    // $getContent = getSingle('tbl_marvel', 'marvel_id', '2');
-
-
-   // $grpResult = "";
-   // $grpResult .= "{";
-    /*if(!is_string($getContent)) {
-        while($conResult = mysqli_fetch_assoc($getContent)) {
-            $jsonResult = "\"".$conResult[$label]."\"".": ".json_encode($conResult, JSON_PRETTY_PRINT);
-            $grpResult .= $jsonResult.",";
-        }
-        $grpResult = substr($grpResult, 0, -1);
-        $grpResult .= "}";
-        echo $grpResult;
-    }else{
-        echo $getContent;
-    }*/
-
+    
     if(!is_string($getContent)) {
         //Working object
         $result = [];
