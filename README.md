@@ -22,5 +22,5 @@ The website has been built using HTML, CSS and JavaScript for the front-end desi
 
 ## Support 
 
-For any issues or questions, please contact the designer at [email address].
+For any issues or questions, please contact the designer at info@hiralshahh.com
  
