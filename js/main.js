@@ -78,14 +78,12 @@ import { SendMail } from "./components/mailer.js";
         data() {
             return {
                 errorFirstname: false,
-                errorLastname: false,
                 errormail: false,
                 errorinput: false,
                 successmsg: false,
 
                 form: {
                     firstname: "",
-                    lastname: "",
                     email: "",
                     text: ""
                 }
@@ -103,13 +101,6 @@ import { SendMail } from "./components/mailer.js";
                     this.errorFirstname = true;
                 }
 
-                if (this.form.lastname.length > 0) {
-                    this.$refs.lname.classList.remove("error");
-                    this.errorLastname = false;
-                } else {
-                    this.$refs.lname.classList.add("error");
-                    this.errorLastname = true;
-                }
 
                 if (this.form.email.length > 0) {
                     this.$refs.email.classList.remove("error");
@@ -132,11 +123,9 @@ import { SendMail } from "./components/mailer.js";
             processMailSuccess(result) {
                 this.successmsg = true;
                 this.$refs.fname.classList.remove("error");
-                this.$refs.lname.classList.remove("error");
                 this.$refs.email.classList.remove("error");
                 this.$refs.message.classList.remove("error");
                 this.errorFirstname = false;
-                this.errorLastname = false;
                 this.errormail = false;
                 this.errorinput = false;
             },
@@ -149,5 +138,5 @@ import { SendMail } from "./components/mailer.js";
             },
 
         }
-    }).mount('#contact')
+    }).mount('#mail-form')
 })();
