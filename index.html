@@ -44,10 +44,12 @@
             <h3 class="text1">Hey, I'M</h3>
             <h2 class="text2">Hiral Shah</h2>
             <h3>A Media Desinger <span>From London, Ontario</span></h3>
-            <p>
-                I am the media designer and developer. My passion is bringing ideas,visions and concepts to life through a strategic approach of web design based on user experience.This is just a small sample of what I would love to do in the coming years with my career
-                as a media designer and developer.
-            </p>
+            <div class="textc">
+                <p>
+                    I am the media designer and developer. My passion is bringing ideas,visions and concepts to life through a strategic approach of web design based on user experience.This is just a small sample of what I would love to do in the coming years with my career
+                    as a media designer and developer.
+                </p>
+            </div>
             <div class="social">
                 <a class="icon" href="https://www.linkedin.com/in/hiral-shah-29a0b9203/">
                     <ion-icon name="logo-linkedin"></ion-icon>
@@ -171,29 +173,59 @@
             </nav>
         </article>
     </main>
-    <!-- end here-->
-    <!-- extra portfolio piece  -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="center">
-                <h3>Let's talk about everything</h3>
-            </div>
-            <div class="action">
-                <form action="action.php">
-                    <div class="maincon">
-                        <!-- <label for="fname">First Name</label> -->
-                        <div class="contactCon">
-                            <input type="text" id="fname" name="firstname" placeholder="Your name">
-                            <input type="email" name="email" placeholder="Enter Your email" required>
-                        </div>
-                        <div class="contactcon2">
-                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea><br>
-                        </div>
-                    </div>
-                    <input type="submit" name="submit" value="Submit">
+    <main id="app2">
+        <!-- end here-->
+        <!-- extra portfolio piece  -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="center">
+                    <h3>Let's talk about everything</h3>
+                </div>
+                <div class="action">
+                    <form action="send.php" method="POST" id="mail-form" class="contactpage">
+                        <ul>
+                            <div class="maincontent">
+                                <div class="content">
+                                    <li>
+                                        <label for="firstname">First Name</label>
+                                        <div class="errorinput" v-if=" errorFirstname">
+                                            <p>There is a error here, Kindly Recheck.</p>
+                                        </div>
+                                        <input class="input" v-model="form.firstname" ref="fname" type="text" id="firstname" name="firstname" required="required">
+                                    </li>
+                                    <li>
+                                        <label for="email">Email</label>
+                                        <div class="errorinput" v-if="errormail">
+                                            <p>There is a error here, Kindly Recheck.</p>
+                                        </div>
+                                        <input class="input" v-model="form.email" ref="email" type="email" id="email" name="email" required="required">
+                                    </li>
+                                </div>
+                                <div class="content2">
+                                    <li>
+                                        <label for="message">Message</label>
+                                        <div class="errorinput" v-if="errorinput">
+                                            <p>There is a error here, Kindly Recheck.</p>
+                                        </div>
+
+                                        <textarea class="input" v-model="form.text" ref="message" name="message" id="message"></textarea>
+                                    </li>
+                                </div>
+                            </div>
+                            <li>
+                                <!-- send button-->
+                                <button @click.prevent="processMail" type="submit" class="button" value="Send Mail">Send Mail</button>
+                            </li>
+                            <div class="onsuccess" v-if="successmsg">
+                                <p class="sent">Thankyou for Sending Us....</p>
+                            </div>
+                </div>
+                </ul>
                 </form>
             </div>
-        </div>
+            </div>
+    </main>
+
     </section>
     <!-- end of the html body-->
     <!-- footer-->

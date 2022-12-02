@@ -8,6 +8,21 @@
             .home-text {
                 text-align: center;
                 margin: 15px;
+                display: grid;
+                justify-content: center;
+            }
+            .home-text p {
+                font-size: var(--p-font);
+                color: var(--second-color);
+                line-height: 28px;
+                margin-bottom: 20px;
+                width: 82%;
+                text-align: center !important;
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                justify-content: center;
+                margin-left: 30px;
+                margin-right: 30px;
             }
             html,
             body {
@@ -102,8 +117,12 @@
                 top: 0 !important;
                 position: relative;
             }
+            span {
+                display: grid !important;
+                justify-content: center;
+            }
             .btn {
-                margin-bottom: 20px;
+                display: none;
             }
             .sub-service {
                 margin: 0px !important;

@@ -398,16 +398,19 @@
                 background: var(--text-color);
                 width: 780px;
                 margin: 100px auto;
-                padding: 170px 150px;
+                padding: 20% 150px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
-                text-align: center;
                 border-radius: 12px;
                 background-image: url(p2.png);
                 height: 436px;
                 background-size: contain;
+            }
+            
+            .onsuccess {
+                color: greenyellow;
             }
             
             .center h3 {
@@ -424,8 +427,8 @@
                 margin-bottom: 25px;
             }
             
-            .contact .action form input[type="text"],
-            #subject {
+            .contact .action form label[type="text"],
+            #message {
                 max-width: 100%;
                 width: 470px;
                 padding: 12px 15px;
@@ -437,7 +440,8 @@
                 border-radius: 30px;
             }
             
-            .contact .action form input[type="email"] {
+            #email,
+            #firstname {
                 max-width: 100%;
                 width: 470px;
                 padding: 12px 15px;
@@ -449,7 +453,13 @@
                 border-radius: 30px;
             }
             
-            .contact .action form input[type="submit"] {
+            .ends {
+                text-align: center;
+                padding: 40px;
+                font-weight: 500;
+            }
+            
+            .button {
                 padding: 12px 40px;
                 background: var(--main-color);
                 color: var(--bg-color);
@@ -460,14 +470,16 @@
                 cursor: pointer;
             }
             
-            .ends {
+            .errorinput {
                 text-align: center;
-                padding: 40px;
+                color: var(--main-color);
             }
             
-            .ends p {
+            label {
+                text-transform: uppercase;
+                color: rgb(255, 255, 255);
                 font-size: var(--p-font);
-                letter-spacing: 1px;
+                text-align: left;
             }
             
             .portfolio {
@@ -489,6 +501,22 @@
             
             .col {
                 position: relative;
+            }
+            
+            .livelink {
+                background-color: var(--main-color);
+                color: var(--bg-color);
+                padding: 10px;
+                border-radius: 20px;
+                cursor: pointer;
+                font-weight: 600;
+            }
+            
+            .livelink:hover {
+                color: var(--main-color);
+                background-color: var(--bg-color);
+                transition: 2ms;
+                border: 2px solid black;
             }
             
             .col img {
@@ -601,6 +629,7 @@
             
             .content p {
                 text-align: left;
+                margin-bottom: 20px;
             }
             
             .closeicon {

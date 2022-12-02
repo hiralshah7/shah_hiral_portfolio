@@ -18,7 +18,7 @@ export default {
             <h3 class="description1">Description</h3>
             <p class="desc">{{ portfolio.Description}}</p>
             <!-- how to add below href-->
-            <a :href="'portfolio.live_link'">Click Here</a>
+            <a class="livelink":href="portfolio.live_link" target="_blank">Click Here To See</a>
         </div>
     </div>
 </div>
