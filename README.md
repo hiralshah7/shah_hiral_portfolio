@@ -3,7 +3,7 @@
 This portfolio website was created using HTML, CSS, JavaScript, a database and PHP. It is designed to showcase my work.
 
 ## To Visit This Or Installation:
--Click Here: www.hiralshahh.com
+- Click Here: www.hiralshahh.com
 - Or Clone the repo to your local device and Use MAMP/WAMP to run this Project.
 
 ## Features 
