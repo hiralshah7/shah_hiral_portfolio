@@ -1,6 +1,11 @@
 # Media Designer Portfolio
 
 This portfolio website was created using HTML, CSS, JavaScript, a database and PHP. It is designed to showcase my work.
+
+## To Visit This Or Installation:
+-Click Here: www.hiralshahh.com
+- Or Clone the repo to your local device and Use MAMP/WAMP to run this Project.
+
 ## Features 
 
 The website contains the following features:
@@ -9,6 +14,7 @@ The website contains the following features:
 - An 'About' section that provides an overview and experience.
 - A contact page that allows users to get in touch with me.
 - A blog that features inspiration related to media design.
+- The Website is comppletely Responsive For PC, Mobile and Tabet.
 
 ## Technology 
 
