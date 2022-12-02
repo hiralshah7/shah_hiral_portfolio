@@ -33,7 +33,7 @@
             <li><a href="#contact">Contact Me</a>
             </li>
         </ul>
-        <a href="" class="view_button">View Resume</a>
+        <a href="https://drive.google.com/file/d/1Nm0c3nZTNUO5Kkxuh_p4LHV_C-c6CtKk/view?usp=sharing" class="view_button">View Resume</a>
     </header>
     <!-- home section-->
     <section class="home" id="home">
@@ -159,6 +159,7 @@
 
     <main id="app">
         <article class="main">
+            <h2 class="lackheading">lack</h2>
             <nav id="car-nav">
                 <!-- adding component binding here -->
                 <ul class="projects">
@@ -173,59 +174,55 @@
             </nav>
         </article>
     </main>
-    <main id="app2">
-        <!-- end here-->
-        <!-- extra portfolio piece  -->
-        <section class="contact" id="contact">
-            <div class="container">
-                <div class="center">
-                    <h3>Let's talk about everything</h3>
-                </div>
-                <div class="action">
-                    <form action="send.php" method="POST" id="mail-form" class="contactpage">
-                        <ul>
-                            <div class="maincontent">
-                                <div class="content">
-                                    <li>
-                                        <label for="firstname">First Name</label>
-                                        <div class="errorinput" v-if=" errorFirstname">
-                                            <p>There is a error here, Kindly Recheck.</p>
-                                        </div>
-                                        <input class="input" v-model="form.firstname" ref="fname" type="text" id="firstname" name="firstname" required="required">
-                                    </li>
-                                    <li>
-                                        <label for="email">Email</label>
-                                        <div class="errorinput" v-if="errormail">
-                                            <p>There is a error here, Kindly Recheck.</p>
-                                        </div>
-                                        <input class="input" v-model="form.email" ref="email" type="email" id="email" name="email" required="required">
-                                    </li>
-                                </div>
-                                <div class="content2">
-                                    <li>
-                                        <label for="message">Message</label>
-                                        <div class="errorinput" v-if="errorinput">
-                                            <p>There is a error here, Kindly Recheck.</p>
-                                        </div>
+    <!-- end here-->
+    <!-- extra portfolio piece  -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="center">
+                <h3>Let's talk about everything</h3>
+            </div>
+            <div class="action">
+                <form action="send.php" method="POST" id="mail-form" class="contactpage">
 
-                                        <textarea class="input" v-model="form.text" ref="message" name="message" id="message"></textarea>
-                                    </li>
-                                </div>
-                            </div>
+                    <div class="maincontent">
+                        <div class="content">
+                            <ul>
+                                <li>
+                                    <label for="firstname">First Name</label>
+                                    <div class="errorinput" v-if=" errorFirstname">
+                                        <p>There is a error here, Kindly Recheck.</p>
+                                    </div>
+                                    <input class="input" v-model="form.firstname" ref="fname" type="text" id="firstname" name="firstname" required="required">
+                                </li>
+                                <li>
+                                    <label for="email">Email</label>
+                                    <div class="errorinput" v-if="errormail">
+                                        <p>There is a error here, Kindly Recheck.</p>
+                                    </div>
+                                    <input class="input" v-model="form.email" ref="email" type="email" id="email" name="email" required="required">
+                                </li>
+                        </div>
+                        <div class="content2">
                             <li>
-                                <!-- send button-->
-                                <button @click.prevent="processMail" type="submit" class="button" value="Send Mail">Send Mail</button>
+                                <label for="message">Message</label>
+                                <div class="errorinput" v-if="errorinput">
+                                    <p>There is a error here, Kindly Recheck.</p>
+                                </div>
+
+                                <textarea class="input" v-model="form.text" ref="message" name="message" id="message"></textarea>
                             </li>
-                            <div class="onsuccess" v-if="successmsg">
-                                <p class="sent">Thankyou for Sending Us....</p>
-                            </div>
-                </div>
-                </ul>
+                        </div>
+                    </div>
+                    <li>
+                        <!-- send button-->
+                        <button @click.prevent="processMail" type="submit" class="button" value="Send Mail">Send Mail</button>
+                    </li>
+                    <div class="onsuccess" v-if="successmsg">
+                        <p class="sent">Thankyou for Sending Us....</p>
+                    </div>
                 </form>
             </div>
-            </div>
-    </main>
-
+        </div>
     </section>
     <!-- end of the html body-->
     <!-- footer-->
