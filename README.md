@@ -1,4 +1,4 @@
-# Media Designer Portfolio
+#My Portfolio
 
 This portfolio website was created using HTML, CSS, JavaScript, a database and PHP. It is designed to showcase my work.
 
