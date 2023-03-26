@@ -31,13 +31,13 @@ export default {
             </div>
         </div>
         <div class="twoImg">
-            <img :src="'images/' + portfolio.image" alt="portfolio image">
-            <img :src="'images/' + portfolio.image2" alt="portfolio image">
+            <img class="mockup1" :src="'image/' + portfolio.image" alt="portfolio image">
+            <img class="mockup1":src="'image/' + portfolio.image2" alt="portfolio image">
         </div>
             <h3 class="tech">Technology Used:</h3>
             <p>{{ portfolio.technology_used }}</p>
             <h3 class="description1">Conclusion</h3>
-            <p class="desc">{{ portfolio.conclusion}}</p>
+            <p class="desc22">{{ portfolio.conclusion}}</p>
             <!-- how to add below href-->
             <a class="livelink" :href="portfolio.live_link" target="_blank">Click Here To See</a>
         </div>

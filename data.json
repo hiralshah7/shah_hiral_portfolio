@@ -3,38 +3,96 @@
         "casestudy": "Hackathon - Case Study",
         "name": "Brand Building",
         "technology_used": "Adobe Xd, HTML5, CSS, Js, Adobe Illustrator",
+        "image": "mockup1.jpg",
+        "image2": "mockup2.jpg",
         "Role": "Designer",
         "Description": "The goal of this assignment is to create a comprehensive brand identity for a new product with the given group and the brand overall design and theme should be visually appealing to the user end side.",
-        "images": "brand_building.png",
+        "images": "thermo.jpg",
         "role": "My main responsibility as the front-end developer was to create an intuitive and responsive UI for the Thermosecurity app. I worked closely with the UI/UX designer to ensure that the design was consistent with the brand's identity and values. I also implemented the motion design created by the motion designer, which included animations and transitions that added a sense of dynamism and playfulness to the app.",
         "live_link": "https://brandbuild.hiralshahh.com/",
         "process": "We started by conducting extensive research on the smart thermostat market and the competition to identify gaps and opportunities. We then worked on creating a unique brand identity for Thermosecurity that would resonate with customers and set the brand apart from its competitors.",
-        "project_overview": "As the front-end developer for a team of three, our goal was to create a brand building strategy for Thermosecurity, a startup specializing in smart thermostats for homes and offices. Our project included developing a user interface (UI) and a motion design for the app."
+        "project_overview": "As the front-end developer for a team of three, our goal was to create a brand building strategy for Thermosecurity, a startup specializing in smart thermostats for homes and offices. Our project included developing a user interface (UI) and a motion design for the app.",
+        "conclusion": "This project was a great opportunity to collaborate with talented designers and develop my front-end development skills. It allowed me to gain experience in creating a responsive and user-friendly UI, as well as integrating motion design into an app. Overall, I am proud of the work our team accomplished and look forward to using this project as a showcase for my portfolio."
     },
 
-    "portfolio2": {
-        "name": "Music Mixer",
-        "technology_used": "Adobe Xd, HTML5, CSS, Js, Photoshop",
-        "Role": "Designer",
-        "Description": "We were asked to make a game where you could take different sounds and put them together to make a song.The goal of this assignment was to create a interface in which user can mix two or more music and get a diffrent sound out of it, Using Java Script the audio mixer functions were created to execute the mix sound.",
-        "images": "music_mixer.png",
-        "live_link": "https://music-mixer.hiralshahh.com/"
-    },
+
+"Portfolio2" : {
+            "casestudy": "Bullyproof Campaign - Case Study",
+            "name": "Bullyproof Hockey",
+            "technology_used": " HTML, CSS, Js, PHP, Adobe Photoshop, Adobe Illustrator",
+            "image": "mockup3.jpg",
+            "image2": "mockup4.jpg",
+            "Role": "Front-end Developer",
+            "Description": "The goal of this project was to create a website for Bullyproof Hockey, a startup aimed at reducing bullying in hockey. The website was designed to be informative, visually engaging, and easy to navigate. ",
+            "images": "bully.jpg",
+            "role": "As the front-end developer, my primary responsibility was to build the website's user interface (UI). I worked closely with the project manager and the UI/UX designer to create a design that effectively communicated the brand's message and values. I also collaborated with the graphic designer to ensure that the website's visuals were consistent with the brand's identity.",
+            "live_link": "https://bullyproof.hiralshahh.com/",
+            "process": "We began by researching bullying in hockey and identifying opportunities to address the issue. We then worked on developing a brand identity for Bullyproof Hockey that would resonate with players, parents, and coaches. From there, we designed the website and implemented the necessary features and functionalities.",
+            "project_overview": "As part of a team of five, our objective was to create a website for Bullyproof Hockey that would help reduce bullying in the sport. My role as the front-end developer involved building an intuitive and visually appealing UI that would effectively convey the brand's message.",
+            "conclusion": "Working on the Bullyproof Hockey project was a rewarding experience that allowed me to improve my front-end development skills and collaborate with talented designers and developers. Our team's efforts resulted in a website that effectively communicated the brand's message and achieved a top-four position in the campaign. I am proud to include this project in my portfolio."
+},
+
     "portfolio3": {
-        "name": "Sports Intro",
-        "technology_used": "Cinema 4D, AfterEffects",
-        "Role": "Designer",
-        "Description": "We were asked to create a video intro that could be used for a sports network. All the modelling, texturing, and animation was done using Cinema 4d.",
-        "images": "sports_intro.png",
-        "live_link": "https://youtu.be/ZoVJDJF9w6k"
-    },
+            "casestudy": "Roku Flashback App - Case Study",
+            "name": "Roku Flashback App",
+            "technology_used": "Vue.js, Node.js, Nord.js, HTML5, CSS, JavaScript",
+            "image": "mockup5.png",
+            "image2": "mockup6.png",
+            "Role": "Front-end Developer",
+            "Description": "The goal of this project was to develop the Roku Flashback app, which allows users to stream classic movies and TV shows. As the front-end developer, my primary responsibility was to build the app's user interface (UI) using Vue.js, Nord.js, HTML, CSS, and JavaScript.",
+            "images": "roku.jpg",
+            "role": "My role as the front-end developer involved translating the designs provided by the designer into an intuitive and visually appealing UI. I collaborated closely with the designer to ensure that the app's design was consistent with the brand's identity and values. I also integrated the necessary features and functionalities, including search and filtering options.",
+            "live_link": "https://xd.adobe.com/view/64652f5e-9cf0-46cc-9412-29b6df81daca-3136/",
+            "process": "We started by conducting extensive research on the streaming market and the competition to identify gaps and opportunities. We then worked on creating a unique brand identity for Roku Flashback that would resonate with customers and set the brand apart from its competitors. From there, we designed and built the app, making sure to integrate the necessary features and functionalities.",
+            "project_overview": "As part of a team of two, our objective was to create the Roku Flashback app, a streaming platform for classic movies and TV shows. My role as the front-end developer involved building an intuitive and visually appealing UI using Vue.js, Nord.js, HTML, CSS, and JavaScript.",
+            "conclusion": "The Roku Flashback project was a great opportunity to work with a talented designer and develop my front-end development skills using Vue.js, Nord.js, HTML, CSS, and JavaScript. It allowed me to gain experience in building a responsive and user-friendly UI for a streaming app. I am proud of the work we accomplished and look forward to using this project as a showcase for my portfolio."
+        },
+
 
     "portfolio4": {
-        "name": "Branding For Startup",
-        "technology_used": "HTML5, CSS, Js",
-        "Role": "Developer",
-        "Description": "In this project We were asked to Create Branding of a startup from scratch, So We were in team of four, In that I was doing overall Development of the site and rest of the branding like wireframe, infographic videos was done by our group members.",
-        "images": "startup_branding.png",
-        "live_link": "https://shortsolution.hiralshahh.com/index.html"
+      
+            "casestudy": "Chat Application - Case Study",
+            "name": "Real-time Chat Application",
+            "technology_used": "Node.js, Socket.io, HTML, CSS",
+            "image": "mockup11.jpg",
+            "image2": "mockup12.jpg",
+            "Role": "Web Developer",
+            "Description": "The goal of this project was to create a real-time chat application that allows users to communicate with each other seamlessly. The application features a login system, a chat room where users can send and receive messages, and typing indicators that let users know when someone is typing a message.",
+            "images": "chat.jpg",
+            "role": "As the sole developer on this project, my responsibilities included implementing the chat functionality using Socket.io and Nord.js. I also worked on the user interface (UI) and made sure that it was user-friendly and visually appealing. Additionally, I added sound effects for incoming and outgoing messages to enhance the user experience.",
+            "live_link": "https://github.com/hiralshah7/shah_hiral_chatApp",
+            "process": "I started by researching existing chat applications to get an idea of what features and functionality would be most useful for users. Once I had a good understanding of what was needed, I began building the application using Node.js and Socket.io. I also designed the UI using HTML and CSS, focusing on simplicity and ease of use.",
+            "project_overview": "My task for this project was to create a real-time chat application using Node.js and Socket.io. The application includes a login system, a chat room with typing indicators, and sound effects for incoming and outgoing messages.",
+            "conclusion": "This project was a great opportunity for me to develop my skills in Node.js and Socket.io, as well as UI design. While the application is not yet fully functional, I am proud of what I have accomplished so far and look forward to continuing to work on it. Overall, this project allowed me to gain valuable experience in creating real-time applications that are user-friendly and visually appealing."
+            },
+
+
+    "portfolio5": {
+            "casestudy": "Sportsnet Intro - Case Study",
+            "name": "Sportsnet Intro",
+            "technology_used": "Cinema 4D, After Effects",
+            "role": "Motion Designer, I was responsible for creating the 3D models and textures in Cinema 4D and integrating them with 2D graphics in After Effects to create the final product. Also worked on the storyboards and rough animation.",
+            "image": "mokup7.jpg",
+            "image2": "mockup10.jpg",
+            "images": "sportsnet.jpg",
+            "live_link": "https://youtu.be/ZoVJDJF9w6k",
+            "process": "I started by sketching out the general concept and flow of the intro, and then created rough storyboards to map out the timing and composition of each shot. Once the storyboards were approved, I moved on to creating the 3D models and textures in Cinema 4D. After that, I imported the 3D assets into After Effects and combined them with 2D graphics and animation to create the final product.",
+            "project_overview": "As a motion designer for this project, my primary responsibility was to create a visually appealing and exciting intro that would capture the essence of Sportsnet's brand.",
+            "conclusion": "I am proud of the final product I created for Sportsnet Assignment. It was an exciting and challenging project that allowed me to showcase my skills in motion design and 3D modeling. I look forward to working on similar projects in the future."
+        },
+
+    "portfolio6": {
+        "casestudy": "Sports Data Visualization - Case Study",
+        "name": "Sports Data Visualization",
+        "technology_used": "Adobe After Effects, Adobe Illustrator",
+        "role": "Graphics & Motion Designer [ Ishpreet Kaur ], Graphic Designer [ Hiral Shah ] , we were responsible for creating the 2D graphics and animations in Adobe Illustrator and After Effects. We also worked on the storyboards and rough animation.",
+        "image": "mokup8.jpg",
+        "image2": "mokup9.jpg",
+        "Description": "Create a professional sports media package that includes a visually stunning video and style guide. Focus on an athlete or sport and use augmented HUD animations to simulate real-time data visualizations that analyze the athlete's movements and resulting forces.",
+        "live_link": "https://youtu.be/5W9wt6bv5FI",
+        "process": "We started by researching the sport of boxing and the movements and physics involved. We then created a storyboard to map out the timing and composition of each shot then we moved on to creating the the assets into After Effects and combined them with 2D graphics and animation to create the final product.",
+        "project_overview": "The goal of this project was to create a professional sports media package that includes a visually stunning video and style guide. Focus on an athlete or sport and use augmented HUD animations to simulate real-time data visualizations that analyze the athlete's movements and resulting forces.",
+        "conclusion": "We are proud of the final product we created for Sports Data Visualization Assignment. It was an exciting and challenging project that allowed us to showcase our skills in motion design and 3D modeling. We look forward to working on similar projects in the future.",
+        "images": "sports.jpg"
     }
 }
