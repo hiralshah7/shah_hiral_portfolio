@@ -1,11 +1,15 @@
 {
     "portfolio1": {
+        "casestudy": "Hackathon - Case Study",
         "name": "Brand Building",
         "technology_used": "Adobe Xd, HTML5, CSS, Js, Adobe Illustrator",
         "Role": "Designer",
         "Description": "The goal of this assignment is to create a comprehensive brand identity for a new product with the given group and the brand overall design and theme should be visually appealing to the user end side.",
         "images": "brand_building.png",
-        "live_link": "https://brandbuild.hiralshahh.com/"
+        "role": "My main responsibility as the front-end developer was to create an intuitive and responsive UI for the Thermosecurity app. I worked closely with the UI/UX designer to ensure that the design was consistent with the brand's identity and values. I also implemented the motion design created by the motion designer, which included animations and transitions that added a sense of dynamism and playfulness to the app.",
+        "live_link": "https://brandbuild.hiralshahh.com/",
+        "process": "We started by conducting extensive research on the smart thermostat market and the competition to identify gaps and opportunities. We then worked on creating a unique brand identity for Thermosecurity that would resonate with customers and set the brand apart from its competitors.",
+        "project_overview": "As the front-end developer for a team of three, our goal was to create a brand building strategy for Thermosecurity, a startup specializing in smart thermostats for homes and offices. Our project included developing a user interface (UI) and a motion design for the app."
     },
 
     "portfolio2": {
